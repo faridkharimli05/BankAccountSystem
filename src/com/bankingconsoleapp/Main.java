@@ -10,7 +10,7 @@ public class Main {
 
         while (true) {
 
-            System.out.println("\n=== MENU ===");
+            System.out.println("=== MENU ===");
             System.out.println("1. Create account");
             System.out.println("2. Deposit");
             System.out.println("3. Withdraw");
@@ -31,6 +31,7 @@ public class Main {
 
                 case 1 -> {
                     System.out.print("Account number: ");
+
                     String accNum = scanner.nextLine();
 
                     System.out.print("Owner name: ");
@@ -40,7 +41,7 @@ public class Main {
                     double balance = scanner.nextDouble();
                     scanner.nextLine();
 
-                    System.out.println("1-Loan | 2-Deposit | 3-Mortgage");
+                    System.out.println("1-Loan -  2-Deposit - 3-Mortgage");
                     int type = scanner.nextInt();
                     scanner.nextLine();
 
