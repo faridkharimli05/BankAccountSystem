@@ -8,9 +8,9 @@ public class DepositAccount extends Account {
 
 
     public void addMonthlyBonus() {
-        var bonus = getBalance() * 0.01;
-        setBalance(getBalance() +bonus);
-        System.out.println("Monthly bonus added! New balance: " + getBalance());
+        setBalance(getBalance()*1.01);
+
+
     }
 
 
